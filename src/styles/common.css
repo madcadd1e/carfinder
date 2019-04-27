@@ -1,0 +1,182 @@
+
+  
+  body{
+    background-color: #dadada;
+    justify-content: center;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .block{
+    display: block;
+  }
+
+  .carfinder{
+    padding: 7rem 2rem;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .card{
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+    margin-bottom: 10px;
+  }
+
+  .card:hover{
+    background-color: #269db1!important;
+
+  }
+
+  .card:hover .card-header .year{
+    border-right: 1px solid white;
+  }
+  
+  .card:hover .card-header {
+    color: white;
+  }
+  
+
+  .card{
+    text-align: left;
+    border: 0;
+    overflow: hidden;
+    border: 1px solid gray;
+  }
+
+  .card-header{
+
+    border: 0!important;
+    font-size: 24px;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    width: auto;
+    padding: 0;
+
+  }
+
+  .card-header .year{
+    padding: 15px;
+    display: inline-block;
+    border-right: 1px solid gray;
+    min-width: 100px;
+    text-align: center;
+
+  }
+
+  .card-header .car{
+    padding: 15px;
+    display: inline-block;
+  }
+
+  .modal-content{
+    border: none;
+  }
+
+  .modal-dialog{
+
+    max-width: 580px;
+
+  }
+
+  .modal-header{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:  250px;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    box-shadow: inset 0px -100px 100px -30px rgba(0, 0, 0, 0.75);
+
+  }
+
+  .modal-header .close{
+    background-color: white;
+    border-radius: 100%;
+    opacity: 1;
+    width: 50px;
+    font-size: 20px;
+    height: 50px;
+
+  }
+
+  .modal-header .close:hover{
+    background-color: #269db1;
+    color: white;
+    opacity: 1!important;
+  }
+
+
+
+  .modal-title{
+
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+
+  }
+
+  .modal-title .year{
+    display: block;
+  }
+
+  .modal-body ul{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .modal-body ul li{
+
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 33%;
+    float: left;
+    
+  }
+
+  .modal-body .car-detail{
+
+    text-align: center;
+    border:1px solid gray;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+
+  }
+
+  .modal-body .row{
+    justify-content: center;
+  }
+
+  .modal-body .car-detail .label{
+
+    background-color: #269db1;
+    padding: 5px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+
+  }
+  .modal-body .car-detail .detail{
+
+    padding: 10px 0px;
+    font-size: 16px;
+    display: block;
+
+  } 
+
+
+  
